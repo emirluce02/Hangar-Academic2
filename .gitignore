@@ -26,3 +26,17 @@
 /nyc_output
 /build
 
+# Archivos sensibles específicos del servidor
+server/.env
+
+# Archivos de logs adicionales
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Caché y archivos temporales
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+
